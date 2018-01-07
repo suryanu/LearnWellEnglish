@@ -1,0 +1,54 @@
+h1,h2,h3,h4,h5{
+    color: #3FB0AC;
+}
+
+p{
+    color: #173E43;
+}
+
+div.carousel-caption span{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2px;
+}
+
+section.about-author{
+    background-color: #fae596;
+}
+
+section.about-author>div.container-fluid{
+    padding: 25px;
+}
+
+section.about-author .author-photo{
+    max-width: 200px;
+    max-height: 200px;
+}
+footer{
+    background-color: #173E43;
+    padding: 20px;
+}
+footer p{
+    color: #3FB0AC;
+}
+footer ul>li{
+    padding: 10px;
+    font-size: 30px;
+    list-style-type: none;
+    display: inline;
+}
+
+footer ul> li a>i {
+    color: #3FB0AC;
+}
+/* Alpha Stage */
+
+div.version{
+    position: relative;
+}
+div.version> p{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 2px solid #173E43;
+    background-color: #fae596;
+}
